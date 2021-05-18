@@ -1,0 +1,20 @@
+library(dismo)
+
+asupak_unique_cell <- gridSample(xy_asupak, bio1, n=1)
+dunni_unique_cell <- gridSample(xy_dunni, bio1, n=1)
+elongatus_unique_cell <- gridSample(xy_elongatus, bio1, n=1)
+idahoensis_unique_cell <- gridSample(xy_idahoensis, bio1, n=1)
+larselli_unique_cell <- gridSample(xy_larselli, bio1, n=1)
+stormi_unique_cell <- gridSample(xy_stormi, bio1, n=1)
+vandykei_unique_cell <- gridSample(xy_vandykei, bio1, n=1)
+vehiculum_unique_cell <- gridSample(xy_vehiculum, bio1, n=1)
+
+#export files
+write.csv(asupak_unique_cell, file="~/Desktop/Plethodon_revision1/SpeciesCoordinates_clean_decimal_cell-unique/asupak_unique_cell.csv", row.names = F)
+write.csv(dunni_unique_cell, file="~/Desktop/Plethodon_revision1/SpeciesCoordinates_clean_decimal_cell-unique/dunni_unique_cell.csv", row.names = F)
+write.csv(elongatus_unique_cell, file="~/Desktop/Plethodon_revision1/SpeciesCoordinates_clean_decimal_cell-unique/elongatus_unique_cell.csv", row.names = F)
+write.csv(idahoensis_unique_cell, file="~/Desktop/Plethodon_revision1/SpeciesCoordinates_clean_decimal_cell-unique/idahoensis_unique_cell.csv", row.names = F)
+write.csv(larselli_unique_cell, file="~/Desktop/Plethodon_revision1/SpeciesCoordinates_clean_decimal_cell-unique/larselli_unique_cell.csv", row.names = F)
+write.csv(stormi_unique_cell, file="~/Desktop/Plethodon_revision1/SpeciesCoordinates_clean_decimal_cell-unique/stormi_unique_cell.csv", row.names = F)
+write.csv(vandykei_unique_cell, file="~/Desktop/Plethodon_revision1/SpeciesCoordinates_clean_decimal_cell-unique/vandykei_unique_cell.csv", row.names = F)
+write.csv(vehiculum_unique_cell, file="~/Desktop/Plethodon_revision1/SpeciesCoordinates_clean_decimal_cell-unique/vehiculum_unique_cell.csv", row.names = F)
